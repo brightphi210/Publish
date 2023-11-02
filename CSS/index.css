@@ -1,0 +1,357 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@100;200;300;400;500;600;700&family=Poppins:wght@100;200;300;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Michroma&display=swap');
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+/* ==================== Nav Bar ========================= */
+
+
+.navSection{
+    display: grid;
+    grid-template-columns: 1fr 400px;
+    padding: 20px 10%;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    position: fixed;
+    width: 100%;
+    z-index: 3;
+    background-color: white;
+}
+
+
+.navUl li{
+    display: inline-block;
+    padding-right: 20px;
+    font-size: 13px;
+    cursor: pointer;
+    font-weight: 400;
+    color: black;
+}
+
+
+.navUl li:hover{
+    color: #1B3764;
+}
+
+
+.icons{
+    display: none;
+}
+
+
+@media only screen and (min-width:321px) and (max-width:768px){
+
+    .icons{
+        display: block;
+        z-index: 3;
+        font-size: 25px;
+    }
+
+
+    .uis-bars{
+        top: 15px;
+        right: 20px;
+        position: absolute;
+        color: black;
+    }
+
+
+    .uis-multiply{
+        top: 20px;
+        right: 20px;
+        position: absolute;
+    }
+
+    .navUl{
+        display: block;
+        background-color: black;
+        color: white;
+        display: none;
+        position: absolute;
+        top: 70px;
+        right: 0;
+        width: 100%;
+        /* width: -100%; */
+        height: 100vh;
+        color: white;
+        padding: 20px; 
+    }
+
+
+    .navUl li{
+        display: block;
+        padding-right: 20px;
+        font-size: 13px;
+        cursor: pointer;
+        font-weight: 400;
+        padding-bottom: 20px;
+        color: white;
+    }
+}
+
+
+/* ====================== sectionOne =================================== */
+.sectionOne{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 50px;
+    align-items: center;
+    padding: 150px 10%;
+    z-index: -1;
+    justify-content: center;
+    margin: auto;
+    background-image: url(/HTMLFolder/Images/bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+}
+
+
+
+.secOneDivOne h2{
+    font-size: 70px;
+    line-height: 90px;
+    font-family: 'Archivo Black', sans-serif;
+    font-weight: bold;
+    text-transform:capitalize;
+}
+
+.secOneDivOne span{
+    color: rgb(216, 168, 22);
+    font-weight: bold;
+    font-family: 'Archivo Black', sans-serif;
+}
+
+
+.secOneDivOne p{
+    font-size: 15px;
+    font-weight: 500;
+    padding-top: 20px;
+}
+
+
+.secOneDivOne button{
+    background-color: #1B3764;
+    padding: 15px 100px;
+    color: white;
+    font-size: 15px;
+    border-radius: 20px;
+    border: none;
+    margin-top: 20px;
+}
+
+
+.secOneDivTwo img{
+    width: 90%;
+    z-index: -100;
+}
+
+@media only screen and (min-width:321px) and (max-width:768px){
+    .sectionOne{
+        display: grid;
+        grid-template-columns: 1fr;
+        padding:100px 6% ;
+    }
+
+    .secOneDivOne h2{
+        font-size: 35px;
+        line-height: 40px;
+    }
+
+    .secOneDivOne p{
+        font-size: 13px;
+    }
+
+    .secOneDivOne button{
+        padding: 10px 30px;
+        border-radius: 10px;
+    }
+
+    .secOneDivTwo img{
+        width: 100%;
+    }
+}
+
+/* ========================= sectionTwo ================================= */
+
+.sectionTwo{
+    text-align: center;
+    padding: 70px;
+    background-color: rgb(249, 249, 249);
+}
+
+.sectionTwo p{
+    font-size: 15px;
+}
+
+
+.sectionTwo h2{
+    font-size: 30px;
+}
+
+
+@media only screen and (min-width:321px) and (max-width:768px){
+    .sectionTwo{
+        text-align: center;
+        padding: 50px;
+        background-color: rgb(249, 249, 249);
+    }
+    
+    .sectionTwo p{
+        font-size: 13px;
+    }
+    
+    
+    .sectionTwo h2{
+        font-size: 30px;
+        padding: 10px 0;
+    } 
+}
+
+
+/* ============================== sectionThree ========================= */
+
+.sectionThree{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 50px 10%;
+    align-items: center;
+    gap: 30px;
+}
+
+.sectionThree img{
+    width: 90%;
+}   
+
+
+.sectionThree h2{
+    font-size: 30px;
+}   
+
+
+.sectionThree p{
+    font-size: 20px;
+    padding-top: 10px;
+}  
+
+
+.three{
+    background-color: rgb(249, 249, 249);
+}
+
+@media only screen and (min-width:321px) and (max-width:768px){
+    .sectionThree{
+        display: grid;
+        grid-template-columns: 1fr;
+        padding: 50px 8%;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .sectionThree h2{
+        font-size: 25px;
+    }  
+
+    .sectionThree p{
+        font-size: 13px;
+    }
+}
+
+
+
+
+
+/* ================= testimony =========================== */
+
+.swiper {
+
+}
+
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    background-color: #F2F2F2;
+    text-align: center;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 10%;
+  }
+
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+
+.testimony h4{
+    color: rgb(177, 4, 4);
+}
+
+.testimony h2{
+    padding: 20px 0;
+}
+
+.mainTest{
+    background-color: white;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    width: 60%;
+    margin: auto;
+    border-radius: 20px;
+}
+
+
+.mainTest{
+    padding: 50px;
+}
+
+.mainTest p{
+    font-size: 15px;
+}
+
+
+.test_pro{
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+    gap: 20px;
+}
+
+.test_pro img{
+    width: 30px;
+}
+
+
+@media only screen and (min-width:321px) and (max-width:768px){
+    .mainTest{
+        background-color: white;
+        box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+        width: 100%;
+    }
+
+    
+    .mainTest p{
+        font-size: 13px;
+    }
+
+
+    .swiper-slide h4{
+        font-size: 15px;
+    }
+
+    .swiper-slide h2{
+        font-size: 20px;
+        padding: 10px 0;
+    }
+}
