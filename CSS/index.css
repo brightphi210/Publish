@@ -326,6 +326,7 @@
     align-items: center;
     padding-top: 20px;
     gap: 20px;
+   
 }
 
 .test_pro img{
@@ -353,5 +354,129 @@
     .swiper-slide h2{
         font-size: 20px;
         padding: 10px 0;
+    }
+}
+
+
+
+
+
+.faqDiv{
+    
+    background-image: url('/HTMLFolder/Images/bg2.png');
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size: cover;
+    width: 100%;
+    height: 70vh;
+    background-color: #1B3764;
+    padding: 10%;
+}
+
+.faqDiv h3, .faqDiv p{
+    isolation: isolate;
+    text-align: left;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.faqDiv h3{
+    font-size: 50px;
+
+}
+
+.faqDiv p{
+    font-size: 18px;
+    padding-bottom: 10px;
+    
+}
+
+
+.readyDiv{
+    background-color: #F2F2F2;
+    padding: 5% 10%;
+    display: flex;
+    gap: 100px;
+}
+
+
+.readyDiv p {
+    font-size: 30px;
+} 
+
+.readyDiv button{
+    background-color: rgb(255, 187, 0);
+    padding: 8px 40px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    color: white;
+    font-size: 13px;
+}
+
+.readyDiv button:hover{
+    background-color: rgb(255, 200, 80);
+    transition: all 0.5s ease;
+    
+}
+
+
+@media only screen and (min-width:321px) and (max-width:768px){
+    .faqDiv p{
+        font-size: 13px;
+        padding-bottom: 10px;
+        
+    }
+
+    .faqDiv h3{
+        font-size: 30px;
+    }
+
+
+    .readyDiv{
+        background-color: #F2F2F2;
+        padding: 10% 10%;
+        display: block;
+        gap: 10px;
+    }
+
+    .readyDiv p {
+        font-size: 20px;
+        padding-bottom: 10px;
+    } 
+}
+
+
+/* ==================== footer ================= */
+
+.footer{
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr 1fr;
+    gap: 30px;
+    background-color: #1B3764;
+    padding: 50px;
+    color: white;
+}
+
+.footer h2{
+    color: #FFCA42;
+}
+
+.footer .sm{
+    font-size: 30px;
+    padding-right: 10px;
+}
+
+
+@media only screen and (min-width:321px) and (max-width:768px){
+    .footer{
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 30px;
+        background-color: #1B3764;
+        padding: 50px;
+        color: white;
     }
 }
