@@ -1,0 +1,231 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@100;200;300;400;500;600;700&family=Poppins:wght@100;200;300;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Michroma&display=swap');
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+/*===== REMOVING RESPONSIVENESS =====*/
+.contactSectionOne{
+    position: relative; 
+    background-image: url('/HTMLFolder/Images/b4.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 60vh;
+    margin: 0;
+    padding: 10%;
+}
+
+.contactSectionOne::before {
+    content: ''; 
+    position: absolute; 
+    top: 0;
+    left: 0;
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); 
+}
+
+.contactSectionOne h3{
+    font-size: 40px;
+    color: white;
+    text-align: center;
+    isolation: isolate;
+    padding-top: 50px;
+}
+
+
+.contactSectionOne p{
+    text-align: center;
+    padding-top: 20px;
+    color: white;
+    isolation: isolate;
+    font-size: 15px;
+}
+
+.aboutSection{
+    position: relative; 
+    background-image: url('/HTMLFolder/Images/b4.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 60vh;
+    margin: 0;
+    padding: 10%;
+}
+
+.aboutSection::before {
+    content: ''; 
+    position: absolute; 
+    top: 0;
+    left: 0;
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(4, 16, 75, 0.5); 
+}
+
+
+.aboutSection h3{
+    font-size: 40px;
+    color: white;
+    text-align: center;
+    isolation: isolate;
+    padding-top: 50px;
+}
+
+
+.aboutSection p{
+    text-align: center;
+    padding-top: 20px;
+    color: white;
+    isolation: isolate;
+    font-size: 15px;
+}
+
+
+
+.sectionDiv{
+    display: grid ;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 50px 10%;
+    padding-top: 100px;
+    gap: 40px;
+}
+
+.sectionDivOne{
+    padding: 50px;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.1) -4px 9px 25px -6px;
+}
+
+.sectionDivOne span{
+    background-color: rgb(254, 211, 254);
+    color: rgb(134, 30, 146);
+    padding: 10px 30px;
+    border-radius: 10px;
+    font-size: 13px;
+}
+
+
+.sectionDivOne .span2{
+    background-color: blanchedalmond;
+    color: brown;
+    padding: 10px 30px;
+    border-radius: 10px;
+    font-size: 13px;
+}
+
+.sectionDivOne .span3{
+    background-color: #c7ffe4;
+    color: #09683a;
+    padding: 10px 30px;
+    border-radius: 10px;
+    font-size: 13px;
+}
+
+
+.three{
+    background-color: rgb(252, 252, 252);
+    box-shadow: none;
+}
+
+.sectionDivOne h2{
+    padding-top: 30px;
+}
+
+
+
+.aboutDiv{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 50px 10%;
+    gap: 50px;
+    align-items: center;
+}
+
+
+.aboutDiv img{
+    width: 100%;
+}
+
+.aboutDiv h2{
+    padding-bottom: 20px;
+    font-size: 30px;
+}
+
+
+.aboutDiv p{
+    padding-bottom: 20px;
+}
+
+@media only screen and (min-width:321px) and (max-width:768px){
+
+    .contactSectionOne h3{
+        font-size: 25px;
+        color: white;
+        text-align: center;
+        isolation: isolate;
+        padding-top: 100px;
+    }
+    .aboutSection h3{
+        font-size: 25px;
+        color: white;
+        text-align: center;
+        isolation: isolate;
+        padding-top: 100px;
+    }
+    .sectionDiv{
+        display: grid ;
+        grid-template-columns: 1fr;
+        padding-top: 30px;
+        gap: 20px;
+        padding: 20px 30px;
+        padding-bottom: 50px;
+
+    }
+
+    .sectionDivOne h2{
+        font-size: 18px;
+    }
+
+    .sectionDivOne p{
+        font-size: 10px;
+        padding-top: 10px;
+    }
+
+
+
+    .aboutDiv{
+        display: grid;
+        grid-template-columns: 1fr;
+        padding: 50px 10%;
+        gap: 20px;
+        align-items: center;
+    }
+    
+    
+    .aboutDiv img{
+        width: 100%;
+    }
+    
+    .aboutDiv h2{
+        padding-bottom: 20px;
+        font-size: 18px;
+    }
+    
+    
+    .aboutDiv p{
+        padding-bottom: 20px;
+        font-size: 12px;
+    }
+}
+
+
+

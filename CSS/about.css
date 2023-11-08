@@ -1,0 +1,284 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    list-style: none;
+}
+
+/*===== REMOVING RESPONSIVE ELEMENTS =====*/
+.responsivenesssectionone,
+.aboutSectionThree h2,
+.ressectionfour{
+    display: none;
+}
+
+.sectioOneAbout{
+    height: 100vh;
+}
+
+.navSection{
+    display: grid;
+    grid-template-columns: 1fr 400px;
+    padding: 20px 10%;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    background-color: white;
+}
+
+.navUl{
+    display: flex;
+    gap: 20px;
+}
+
+.navUl li a{
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+}
+
+/*===== MAIN ABOUT section ======*/
+.aboutsectiondiv{
+    text-align: center;
+    padding: 130px;
+    z-index: -1;
+    justify-content: center;
+    margin: auto;
+}
+
+.aboutsectiondiv p{
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.aboutsectiondiv div{
+    padding-top: 25px;
+    padding-bottom: 40px;
+    line-height: 1.5;
+}
+
+.aboutsectiondiv button{
+    font-size: 15px;
+    padding: 9px 30px;
+    border: none;
+    border-radius: 25px;
+}
+
+/*===== SECTION TWO =====*/
+.aboutSectionTwoDivContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.sectionTwoMainDiv1{
+    background-color: #fff;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    padding: 20px;
+    border-radius: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+
+.loremipsumdiv{
+    background-color: #f4ddfa;
+    color: purple;
+    width: fit-content;
+    padding-left: 10px;
+    padding-right: 30px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 8px;
+}
+
+.loremipsumdivcontainer{
+    padding-top: 40px;
+}
+
+.sectionTwoMainDiv1 h3{
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.sectionTwoMaintext{
+    padding-bottom: 50px;
+}
+
+.sectionTwoMainDiv2{
+    background-color: #f1f1f1;
+    padding: 20px;
+    border-radius: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.loremipsumdiv2{
+    background-color: #f0b5ac;
+    color: red;
+    width: fit-content;
+    padding-left: 10px;
+    padding-right: 30px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 8px;
+}
+
+.loremipsumdivcontainer2{
+    padding-top: 40px;
+}
+
+.sectionTwoMainDiv2 h3{
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.sectionTwoMaintext2{
+    padding-bottom: 50px;
+}
+
+
+.sectionTwoMainDiv3{
+    background-color: #f1f1f1;
+    padding: 20px;
+    border-radius: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+
+.loremipsumdiv3{
+    background-color: rgb(185, 248, 216);
+    color: green;
+    width: fit-content;
+    padding-left: 10px;
+    padding-right: 30px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 8px;
+}
+
+.loremipsumdivcontainer3{
+    padding-top: 40px;
+}
+
+.sectionTwoMainDiv3 h3{
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.sectionTwoMaintext3{
+    padding-bottom: 50px;
+}
+
+.aboutSectionTwofirsttext{
+    margin-left: 20px;
+}
+
+/*===== SECTION THREE =====*/
+.aboutSectionThree{
+    background-color: #f1f1f1;
+}
+
+.aboutSectionThreeContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.aboutSectionThreeTextContainer h1{
+    font-size: 30px;
+}
+
+.aboutSectionThreeFirstText{
+    color: #DC7000;
+}
+
+.aboutSectionThreeFirstText{
+    font-size: 20px;
+}
+
+/*==== SECTION FOUR ====*/
+.aboutSectionFour{
+    display: block;
+}
+
+.aboutSectionfourMainContainer{
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+
+.aboutSectionFourFirstText{
+    text-align: center;
+}
+
+.aboutSectionFour h1{
+    text-align: center;
+}
+
+.swiper-slide{
+    text-align: center;
+    padding: 50px;
+}
+
+.aboutMainText{
+    padding-top: 100px;
+    padding-bottom: 100px;
+    padding-left: 50px;
+    padding-right: 50px;
+    box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px, rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px, rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px;
+    width: fit-content;
+    margin: auto;
+    border-radius: 10px; 
+}
+
+footer{
+    background-color: #00122F;
+    color: #fff;
+}
+
+.footercontainerdiv{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 200px;
+}
+
+.footermaindiv{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.footercontainerdiv h2{
+    color: #00B8E0;
+}
+
+/*===== ICONS =====*/
+.uil-facebook{
+    font-size: 35px;
+    color: #00B8E0;
+}
+
+.uil-instagram{
+    font-size: 35px;
+    color: #00B8E0;
+}  
+
+.uil-twitter{
+    font-size: 35px;
+    color: #00B8E0;
+}
+
+/*===== LAST CONTENT =====*/
+
+.aboutLastContent P{
+    text-align: center;
+    padding: 20px;
+}
+
+/*===== MEDIA QUERY =====*/

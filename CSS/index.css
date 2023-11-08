@@ -12,6 +12,10 @@
 
 /* ==================== Nav Bar ========================= */
 
+a{
+    text-decoration: none;
+    color: black;
+}
 
 .navSection{
     display: grid;
@@ -20,7 +24,7 @@
     box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
     position: fixed;
     width: 100%;
-    z-index: 3;
+    z-index: 10;
     background-color: white;
 }
 
@@ -32,6 +36,7 @@
     cursor: pointer;
     font-weight: 400;
     color: black;
+    z-index: 3;
 }
 
 
@@ -456,8 +461,9 @@
     grid-template-columns: 2fr 1fr 1fr 1fr;
     gap: 30px;
     background-color: #1B3764;
-    padding: 50px;
+    /* margin-top: 100px; */
     color: white;
+    padding: 50px 10%;
 }
 
 .footer h2{
@@ -480,3 +486,7 @@
         color: white;
     }
 }
+
+
+
+
