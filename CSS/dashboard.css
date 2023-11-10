@@ -100,7 +100,7 @@ hr{
 
 
 .bookUpload2{
-    padding-top: 100px;
+    padding-top: 50px;
 }
 
 .myH2{
@@ -229,5 +229,9 @@ select{
 
     .bookUpload button{
         width: 100%;
+    }
+
+    .bookUpload2{
+        padding-top: 50px;
     }
 }
